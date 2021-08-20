@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="Author" content="Adryan">
+    <title>Novo-funcionario</title>
+</head>
+<body>
+    </main>
+        <header>
+            <img height= "40px" width="140px" src="./imagens/colab-logo.png" alt="logo colab.">
+            <br />
+            <br />
+            <img height= "40px" width="40px" src="./imagens/usuario.png" alt="imagem usuario.">
+            <br />
+            <b>Pedro</b>
+            <br />
+            <i>Gerente</i>
+            <nav>
+                <a href="index.html" target="">Funcionários</a>
+                <a href="novo-funcionario.html" target="">Novo Funcionário</a>
+                <a href="enviar-email.html" target="">Enviar email</a>
+                <a href="sair.html" target="">Sair</a>
+            </nav>
+        </header>
+        <div>
+            <h3>Cadastro de funcionário</h3>
+            <br />
+        </div>
+        <form  action="cadastro.html" method="POST">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <br />
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input id="nome" type="text" name="nome" placeholder="Informe o nome" maxlength="20" required>
+                </p>
+                <br />
+                <p>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input id="sobrenome" type="text" name="sobrenome" placeholder="Informe o sobrenome" maxlength="20" required>
+                </p>
+                <br />
+                <p>
+                    <label for="filial">Filial onde trabalha:</label>
+                    <select name="filial" id="filial" requised>
+                        <option value="">Escolha uma filial</option>
+                        <option value="filial1">Filial1</option>
+                        <option value="filial2">Filial2</option>
+                        <option value="filial3">Filial3</option>
+                    </select>
+                </p>
+                <br />
+                <p>
+                    <label for="cidade">Cidade onde trabalha:</label>
+                    <input id="cidade" type="text" name="cidade" value="Tubarão" readonly>
+                </p>
+                <br />
+                <p>
+                    <label for="cargos">Cargo que ocupa:</label>
+                    <input list="cargos"/>
+                        <datalist id="cargos">
+                            <option value="Cargo1">
+                            <option value="Cargo2">
+                            <option value="Cargo3">
+                        </datalist>
+                </p>
+                <br />
+                <p>
+                    <label for="admissao">Data de admissao :</label>
+                    <input id="admissao" type="date" name="admissao">
+                </p>
+                <br />
+                <p>
+                    <label for="salario">Salário:</label>
+                    <input id="salario" type="number" name="salario" placeholder="Informe o salário" min="1000" max="20000">
+                </p>
+                <br />
+            </fieldset>
+            <div>
+                <pr>
+                    <br />
+                    <button type="submit">Salvar</button>
+                    <button type="reset">Limpar</button>
+                    <button type="cancel">Cancelar</button>
+                    <br />
+                    <br />
+                </pr>
+            </div>
+        </form>
+        <br />
+        <footer>
+            <br />
+            <img height= "20px" width="100px" src="./imagens/colab-logo.png" alt="logo colab.">
+            <br />
+            <br />
+            <p>
+                <b>Colab</b> - <mark>todas as informações dos seus colaboradores na palma da sua mão.</mark>
+            </p>
+            <nav>
+                <a href="index.html" target="">Funcionários</a>
+                <a href="novo-funcionario.html" target="">Novo Funcionário</a>
+                <a href="enviar-email.html" target="">Enviar email</a>
+                <a href="sair.html" target="">Sair</a>
+            </nav>
+        </footer>
+    </main>
+</body>
+</html>

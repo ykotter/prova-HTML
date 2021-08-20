@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    margin: 10px;
+}
+
+a:hover{
+    color: purple;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer, header {
+    margin: 1px;
+    padding: 1px;
+    background-color: #DDA0DD;
+}
+
+mark {
+    background-color:#811ac0;
+    color: white;
+}
+
+h3{
+    margin: 1px;
+    padding: 1px;
+    color:#811ac0;
+}
