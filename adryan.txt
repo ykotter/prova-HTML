@@ -1,0 +1,33 @@
+Aluno: Adryan
+
+Geral
+  - Quando uma propriedade não tem um valor a propriedade não precisa estar declarada.
+    - A propriedade target="" nos links do menu, no header e no footer, não precisa ter, já que não tem valor
+  - O elemento main, não precisaria ser o elemento "raiz" da página e poderia estar entre os elementos header e footer
+    - Em todas as páginas
+  - Faltou a linha logo depois do titulo da página
+    - Em todas as páginas
+Cabeçalho
+  - ok
+Rodapé
+  - ok
+Funcionários
+  - ok
+Novo funcionário
+  - Ao clicar no botão cancelar o formulário esta sendo submetido
+    - Isso acontece porque você usou type="cancel", que não existe e então está sendo usado o padrão que é submit
+  - FEZ A PÁGINA OPCIONAL DE SUCESSO
+Enviar email
+  - Os dados do formulário não deveriam ser enviados com o método POST
+  - O texto do botão "Enviar" deveria ser "Enviar email"
+  - FEZ A PÁGINA OPCIONAL DE SUCESSO
+Sair
+  - A página sair não deveria mostrar o cabeçalho e o rodapé da página
+Informações do funcionário (opcional)
+  - ok
+Estilo (extra)
+  - O estilo ficou muito bom e bem coerente
+Feedback
+  - Código bem estruturado e organizado
+  - Utilizou as tags semânticas corretamente
+  - Ficou muito bom
