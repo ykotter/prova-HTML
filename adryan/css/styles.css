@@ -18,8 +18,11 @@ nav {
 }
 
 footer, header {
-    margin: 1px;
-    padding: 1px;
+    border: inset;
+    border-color: #811ac0;
+    border-width: 5px;
+    margin: 0px;
+    padding: 5px;
     background-color: #DDA0DD;
 }
 
@@ -29,7 +32,26 @@ mark {
 }
 
 h3{
-    margin: 1px;
-    padding: 1px;
+    margin: 5px;
+    padding: 5px;
     color:#811ac0;
+}
+
+div, table, form {
+    margin: 0px;
+    padding: 5px;
+}
+
+th, tr, td {
+    border: solid;
+    border-color: #811ac0;
+    border-width: 2px;
+    padding: 10px;
+}
+
+#usuario {
+    border: solid;
+    border-color: #811ac0;
+    border-width: 3px;
+    border-radius: 100%;
 }
