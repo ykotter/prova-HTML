@@ -9,85 +9,84 @@
     <title>Enviar-email</title>
 </head>
 <body>
-    <main>
-        <header>
-            <img height= "40px" width="140px" src="./imagens/colab-logo.png" alt="logo colab.">
-            <br />
-            <br />
-            <img height= "40px" width="40px" src="./imagens/usuario.png" alt="imagem usuario.">
-            <br />
-            <b>Pedro</b>
-            <br />
-            <i>Gerente</i>
-            <nav>
-                <a href="index.html" target="">Funcionários</a>
-                <a href="novo-funcionario.html" target="">Novo Funcionário</a>
-                <a href="enviar-email.html" target="">Enviar email</a>
-                <a href="sair.html" target="">Sair</a>
-            </nav>
-        </header>
-        <div>
-            <h3>Enviar email</h3>
-            <br />
-            <pr>
-                Selecione um <b>funcionário</b> para enviar um <i>email</i>.
-            </pr>
-        </div>
+    <header>
+        <img height= "40px" width="140px" src="./imagens/colab-logo.png" alt="logo colab.">
         <br />
+        <br />
+        <img class="usuario" height= "40px" width="40px" src="./imagens/usuario.png" alt="imagem usuario.">
+        <br />
+        <b>Pedro</b>
+        <br />
+        <i>Gerente</i>
+        <nav>
+            <a href="index.html">Funcionários</a>
+            <a href="novo-funcionario.html">Novo Funcionário</a>
+            <a href="enviar-email.html">Enviar email</a>
+            <a href="sair.html">Sair</a>
+        </nav>
+    </header>
+    <div>
+        <br />
+        <h3>Enviar email</h3>
+        <br />
+        <pr>
+            Selecione um <b>funcionário</b> para enviar um <i>email</i>.
+        </pr>
+    </div>
+    <br />
 
-        <form  action="enviado.html" method="POST">
-            <fieldset>
-                <legend>Email</legend>
-                <br />
-                <p>
-                    <label for="funcionario">Funcionário:</label>
-                    <input list="funcionario" required/>
-                    <datalist id="funcionario">
-                        <option value="Marcos">
-                        <option value="João">
-                        <option value="Júlia">
-                        <option value="Maria">
-                        <option value="Felipe">
-                    </datalist>
-                </p>
-                <br />
-                <p>
-                    <label for="email">Email:</label>
-                    <input id="email" type="email" name="email" required>
-                </p>
-                <br />
-                <p>
-                    <label for="texto">Texto:</label>
-                    <textarea id="texto" type="textarea" name="texto" rows="10" cols="50"></textarea>
-                </p>
-                <br />
-            </fieldset>
-            <div>
-                <pr>
-                    <br />
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Cancelar</button>
-                    <br />
-                    <br />
-                </pr>
-            </div>
-        </form>
-        <br />
-        <footer>
-            <br />
-            <img height= "20px" width="100px" src="./imagens/colab-logo.png" alt="logo colab.">
-            <br />
+    <form  action="enviado.html">
+        <fieldset>
+            <legend>Email</legend>
             <br />
             <p>
-                <b>Colab</b> - <mark>todas as informações dos seus colaboradores na palma da sua mão.</mark>
+                <label for="funcionario">Funcionário:</label>
+                <input list="funcionario" required/>
+                <datalist id="funcionario">
+                    <option value="Marcos">
+                    <option value="João">
+                    <option value="Júlia">
+                    <option value="Maria">
+                    <option value="Felipe">
+                </datalist>
             </p>
-            <nav>
-                <a href="index.html" target="">Funcionários</a>
-                <a href="novo-funcionario.html" target="">Novo Funcionário</a>
-                <a href="enviar-email.html" target="">Enviar email</a>
-                <a href="sair.html" target="">Sair</a>
-            </nav>
-        </footer>
-    </main>
+            <br />
+            <p>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required>
+            </p>
+            <br />
+            <p>
+                <label for="texto">Texto:</label>
+                <textarea id="texto" type="textarea" name="texto" rows="10" cols="50"></textarea>
+            </p>
+            <br />
+        </fieldset>
+        <div>
+            <pr>
+                <br />
+                <button type="submit">Enviar email</button>
+                <button type="reset">Cancelar</button>
+                <br />
+                <br />
+            </pr>
+        </div>
+    </form>
+    <br />
+    <footer>
+        <br />
+        <img height= "20px" width="100px" src="./imagens/colab-logo.png" alt="logo colab.">
+        <br />
+        <br />
+        <p>
+            <b>Colab</b> - <mark>todas as informações dos seus colaboradores na palma da sua mão.</mark>
+        </p>
+        <nav>
+            <a href="index.html">Funcionários</a>
+            <a href="novo-funcionario.html">Novo Funcionário</a>
+            <a href="enviar-email.html">Enviar email</a>
+            <a href="sair.html">Sair</a>
+        </nav>
+    </footer>
 </body>
 </html>
