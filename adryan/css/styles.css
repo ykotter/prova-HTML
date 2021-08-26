@@ -117,3 +117,7 @@ h4 {
 .valor {
     font-weight: bold;
 }
+
+.imagem {
+    align-self: center;
+}

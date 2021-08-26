@@ -30,7 +30,7 @@
         <h3>Cadastro de funcionário</h3>
         <br />
     </div>
-    <form  action="cadastro.html" method="POST">
+    <form action="" method="POST">
         <fieldset>
             <legend>Cadastro</legend>
             <br />
@@ -46,7 +46,7 @@
             <br />
             <p>
                 <label for="filial">Filial onde trabalha:</label>
-                <select name="filial" id="filial" requised>
+                <select id="filial" name="filial" id="filial" requised>
                     <option value="">Escolha uma filial</option>
                     <option value="filial1">Filial1</option>
                     <option value="filial2">Filial2</option>
@@ -61,7 +61,7 @@
             <br />
             <p>
                 <label for="cargos">Cargo que ocupa:</label>
-                <input list="cargos"/>
+                <input id="cargo" list="cargos"/>
                     <datalist id="cargos">
                         <option value="Cargo1">
                         <option value="Cargo2">
@@ -83,7 +83,7 @@
         <div>
             <pr>
                 <br />
-                <button type="submit">Salvar</button>
+                <button id="botao-submeter" type="submit">Salvar</button>
                 <button type="reset">Limpar</button>
                 <button><a class="cancelar" href="index.html">Cancelar</a></button>
                 <br />
@@ -91,6 +91,9 @@
             </pr>
         </div>
     </form>
+    <div id="divPessoas">
+
+    </div>
     <br />
     <footer>
         <br />
@@ -107,5 +110,6 @@
             <a href="sair.html">Sair</a>
         </nav>
     </footer>
+   <script src="./js/index.js"></script>
 </body>
 </html>
